@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: "22"
           cache: pnpm
-        run: |
+      - run: |
           pnpm install
           pnpm run build
       - name: 部署
