@@ -14,7 +14,7 @@ jobs:
       - name: 显示当前工作目录
         run: pwd
       - name: 配置 pnpm
-        uses: pnpm/action-setup@4
+        uses: pnpm/action-setup@v4
         with:
           version: 10
       - name: 安装依赖和构建项目
